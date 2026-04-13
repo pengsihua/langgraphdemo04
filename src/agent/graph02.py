@@ -37,7 +37,7 @@ config: RunnableConfig = {"configurable": {"thread_id": "1"}}
 res = cgraph.invoke({"txt":"sdfsdfds"},config=config)
 print(res)
 
-print(cgraph.get_state(config))
+print("get_state",cgraph.get_state(config))
 
 print(list(cgraph.get_state_history(config)))
 
