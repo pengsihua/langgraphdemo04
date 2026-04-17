@@ -1,7 +1,6 @@
 from operator import add
-from typing import Annotated
+from typing import Annotated, TypedDict
 
-from jedi.inference.gradual.typing import TypedDict
 from langchain_core.utils.uuid import uuid7
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.constants import START, END

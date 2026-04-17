@@ -16,7 +16,9 @@ dependencies = [
     "langgraph-checkpoint-sqlite",
     "langgraph-checkpoint-postgres",
     "psycopg",
-    "psycopg_binary"
+    "psycopg_binary",
+    "asyncpg",
+    "langmem"
 
 ]
 
